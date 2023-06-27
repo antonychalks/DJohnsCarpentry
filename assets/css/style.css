@@ -8,8 +8,7 @@
 
 .header {
     background-color: #393939;
-    color: #34d0ba;
-    height: 120px;
+    height: 100px;
 }
 
 /*Logo*/
@@ -21,7 +20,7 @@
 
 .logo,
 #nav {
-    line-height: 120px;
+    line-height: 100px;
     color: #34d0ba;
 }
 
@@ -47,8 +46,47 @@
     border-bottom: 1px solid #34d0ba;
 }
 
-#welcome_img {
-    height: 600px;
-    width: 70%;
-    position: fixed;
+#welcome-outer {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    clear: both;
+}
+
+#welcome-img {
+    height: 100%;
+    width: 100%;
+    background: url(../media/Extension.jpg) no-repeat center center;
+}
+
+#intro {
+    height: 300px;
+    width: 47%;
+    margin: 10px;
+    border: 3px solid #393939;
+    float: left;
+}
+
+#intro h2 {
+    color: #34d0ba;
+    margin: 0, 0, 0, 30px;
+}
+
+#intro p {
+    text-align: center;
+}
+
+#intro-img-container {
+    width: 47%;
+    height: 300px;
+    border: 3px solid #393939;
+    padding: 1px;
+    margin: 10px;
+    float: right;
+}
+
+#intro-img {
+    height: 300px;
+    width: 100%;
 }

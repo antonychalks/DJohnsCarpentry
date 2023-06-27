@@ -1,0 +1,13 @@
+1)  Problem: Tried to create the background color of the header by adding a margin to the logo or nav. This caused the two elements to not line up.
+    Cause: The margin would be long and collide with eachother which forced the nav element to a new line.
+    Solution: Adding the header class to the header element and styling the background color of the class that is a parent to the logo and nav.
+
+2)  Problem: The welcome-img wouldn't load in.
+    Cause: I had set the styling rule under the welcome-img ID to background-image.
+    Solution: I set the styling rule to background.
+
+3)  Problem: The intro image was on a different line to the intro.
+    Cause: I didn't include the rule float:right.
+    Solution: Included the rule float:right, however the problem was still there.
+    Cause: I didn't account for the margin, border or padding so the width's were too wide to fit in-line.
+    Solution: I lowered the width to 47%.

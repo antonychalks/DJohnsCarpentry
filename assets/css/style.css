@@ -57,36 +57,59 @@
 #welcome-img {
     height: 100%;
     width: 100%;
-    background: url(../media/Extension.jpg) no-repeat center center;
+    background: url(../media/roof.jpg) no-repeat center center;
+}
+
+/* Intro */
+#intro-container {
+    background-color: #393939;
+    height: 323px;
 }
 
 #intro {
     height: 300px;
     width: 47%;
-    margin: 10px;
-    border: 3px solid #393939;
+    margin: 10px 7.5px 10px 15px;
+    border: 3px solid #34d0ba;
     float: left;
+    background-color: #393939;
 }
 
 #intro h2 {
     color: #34d0ba;
-    margin: 0, 0, 0, 30px;
+    margin-left: 30px;
 }
 
 #intro p {
     text-align: center;
+    color: #E9DFB7;
 }
 
 #intro-img-container {
     width: 47%;
     height: 300px;
-    border: 3px solid #393939;
+    border: 3px solid #34d0ba;
     padding: 1px;
-    margin: 10px;
+    margin: 10px 15px 10px 7.5px;
     float: right;
+    background-color: #393939;
 }
 
 #intro-img {
     height: 300px;
     width: 100%;
+}
+
+#extension-container {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+#extension-img {
+    height: 100%;
+    width: 80%;
+    background: url(../media/extension.jpg) no-repeat center center fixed;
 }

@@ -2,6 +2,7 @@
     border: none;
     margin: 0;
     padding: 0;
+    background-color: #393939;
 }
 
 /* Header */
@@ -57,7 +58,7 @@
 #welcome-img {
     height: 100%;
     width: 100%;
-    background: url(../media/roof.jpg) no-repeat center center;
+    background: url(../media/roof2.jpg) no-repeat center center;
 }
 
 /* Intro */
@@ -110,6 +111,6 @@
 
 #extension-img {
     height: 100%;
-    width: 80%;
-    background: url(../media/extension.jpg) no-repeat center center fixed;
+    width: 100%;
+    background: url(../media/roof.jpg) no-repeat center center fixed;
 }

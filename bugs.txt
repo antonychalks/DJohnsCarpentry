@@ -13,4 +13,5 @@
     Solution: I lowered the width to 47%.
 
 4)  Problem: The social links won't line up correctly within the footer.
-    Cause:
+    Cause: The margins and padding was wrong.
+    Solution: Played with the margins and padding once all the elements of the footer were in place.

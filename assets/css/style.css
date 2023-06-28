@@ -117,23 +117,21 @@
 
 /*Footer*/
 .footer {
-    height: 100px;
+    height: 150px;
     display: inline;
 }
 
 .footer-container {
-    margin: 20px;
+    margin: 0, 20px;
     width: 30%;
-    height: 100%;
-    border: 5px solid #34d0ba;
-    height: 80px;
-    padding-top: 15px;
+    height: 150px;
 }
 
 /* Socials */
 
 #socials {
     float: left;
+    margin-top: 30px;
 }
 
 .footer-container li {
@@ -154,6 +152,7 @@
     margin: 0 auto;
     text-align: center;
     height: 100%;
+    margin-top: 40px;
 }
 
 #certifications img {
@@ -164,4 +163,12 @@
 /*Contact*/
 #contact {
     float: right;
+}
+
+#contact h2 {
+    color: #34d0ba;
+}
+
+#contact p {
+    color: #E9DFB7;
 }

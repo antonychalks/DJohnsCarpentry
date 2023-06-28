@@ -11,3 +11,6 @@
     Solution: Included the rule float:right, however the problem was still there.
     Cause: I didn't account for the margin, border or padding so the width's were too wide to fit in-line.
     Solution: I lowered the width to 47%.
+
+4)  Problem: The social links won't line up correctly within the footer.
+    Cause:

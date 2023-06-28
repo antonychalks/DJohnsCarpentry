@@ -114,3 +114,54 @@
     width: 100%;
     background: url(../media/roof.jpg) no-repeat center center fixed;
 }
+
+/*Footer*/
+.footer {
+    height: 100px;
+    display: inline;
+}
+
+.footer-container {
+    margin: 20px;
+    width: 30%;
+    height: 100%;
+    border: 5px solid #34d0ba;
+    height: 80px;
+    padding-top: 15px;
+}
+
+/* Socials */
+
+#socials {
+    float: left;
+}
+
+.footer-container li {
+    display: inline;
+    width: 25%;
+}
+
+.footer-container i {
+    color: #E9DFB7;
+    font-size: 50px;
+    width: 24%;
+    clear: both;
+    text-align: center;
+}
+
+/*Certifications*/
+#certifications {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+
+#certifications img {
+    padding: 1px;
+    border: 2px solid #34d0ba;
+}
+
+/*Contact*/
+#contact {
+    float: right;
+}

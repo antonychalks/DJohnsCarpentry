@@ -195,20 +195,16 @@
 /*Other Services*/
 .services {
     height: 300px;
-    margin: 20px;
+    display: inline;
 }
 
-.serv-text {
-    width: auto;
-    float: left;
+.services div {
+    width: 47%;
     border: 3px solid #34d0ba;
-    height: 100%;
-    padding: 3px;
 }
 
 .services h2 {
     color: #34d0ba;
-    margin-left: 20px;
 }
 
 .services li {
@@ -216,15 +212,11 @@
     margin-left: 20px;
 }
 
-.serv-img-container {
-    height: 100%;
-    background-color: #393939;
-    float: right;
-    border: 3px solid #34d0ba;
-    padding: 3px;
-}
-
 .services img {
-    height: 100%;
+    height: 300px;
     width: auto;
+    border: 3px solid #34d0ba;
+    padding: 1px;
+    float: right;
+    display: inline;
 }

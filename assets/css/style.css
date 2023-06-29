@@ -122,8 +122,9 @@
 
 .footer-container {
     margin: 0, 20px;
-    width: 30%;
+    width: 25%;
     height: 150px;
+    display: inline;
 }
 
 /* Socials */
@@ -150,13 +151,10 @@
 #certifications {
     margin: 0 auto;
     text-align: center;
-    height: 100%;
+    height: 50%;
     margin-top: 40px;
-}
-
-#certifications img {
-    padding: 1px;
-    border: 2px solid #34d0ba;
+    display: inline;
+    clear: both;
 }
 
 /*Contact*/
@@ -200,7 +198,6 @@
 
 .serv-text {
     width: auto;
-    float: left;
     border: 3px solid #34d0ba;
     height: 100%;
     padding: 3px;
@@ -219,7 +216,6 @@
 .serv-img-container {
     height: 100%;
     background-color: #393939;
-    float: right;
     border: 3px solid #34d0ba;
     padding: 3px;
 }
@@ -227,4 +223,20 @@
 .services img {
     height: 100%;
     width: auto;
+}
+
+#serv-text-1 {
+    float: left;
+}
+
+#serv-text-2 {
+    float: right;
+}
+
+#serv-img-1 {
+    float: right;
+}
+
+#serv-img-2 {
+    float: left;
 }

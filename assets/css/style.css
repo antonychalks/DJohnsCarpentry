@@ -176,3 +176,36 @@
 
 
 /*our_services.html*/
+
+/*extension img*/
+#extension-outer {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    clear: both;
+}
+
+#extension-img {
+    height: 100%;
+    width: 100%;
+    background: url(../media/extension.jpg) no-repeat center center;
+}
+
+/*Other Services*/
+.services {
+    height: 300px;
+    width: 47%;
+    margin: 10px 7.5px 10px 15px;
+    border: 3px solid #34d0ba;
+    float: left;
+    background-color: #393939;
+}
+
+.services h2 {
+    color: #34d0ba;
+}
+
+.services p {
+    color: #34d0ba;
+}

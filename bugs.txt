@@ -15,3 +15,7 @@
 4)  Problem: The social links won't line up correctly within the footer.
     Cause: The margins and padding was wrong.
     Solution: Played with the margins and padding once all the elements of the footer were in place.
+
+5)  Problem: The line isn't showing beneath the active page.
+    Cause: .active isnt appearing.
+    Solution: 

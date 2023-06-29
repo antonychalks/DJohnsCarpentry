@@ -5,12 +5,7 @@
     background-color: #393939;
 }
 
-/* Header */
-
-.header {
-    background-color: #393939;
-    height: 100px;
-}
+/*Index.html*/
 
 /*Logo*/
 
@@ -20,32 +15,34 @@
 }
 
 .logo,
-#nav {
-    line-height: 100px;
+#navigation {
+    height: 100px;
     color: #34d0ba;
 }
 
 /*navigation*/
 
-#nav li {
+#navigation li {
     list-style-type: none;
     letter-spacing: 2px;
     margin-right: 20px;
     float: right;
 }
 
-#nav a {
-    text-decoration: none;
+#navigation a {
     color: #34d0ba;
+    text-decoration: none;
 }
 
-#nav a:hover {
-    border-bottom: 1px solid #34d0ba;
+#navigation a:hover {
+    border-bottom: 3px solid #34d0ba;
 }
 
-.active {
-    border-bottom: 1px solid #34d0ba;
+.active h2 {
+    border-bottom: 3px solid #34d0ba;
 }
+
+/*Welcome image*/
 
 #welcome-outer {
     height: 400px;
@@ -101,15 +98,17 @@
     width: 100%;
 }
 
-#extension-container {
-    height: 800px;
+/*landscape image*/
+
+#roof2-container {
+    height: 400px;
     width: 100%;
     position: relative;
     overflow: hidden;
     clear: both;
 }
 
-#extension-img {
+#roof2-img {
     height: 100%;
     width: 100%;
     background: url(../media/roof.jpg) no-repeat center center fixed;
@@ -117,7 +116,7 @@
 
 /*Footer*/
 .footer {
-    height: 150px;
+    height: 120px;
     display: inline;
 }
 
@@ -163,6 +162,7 @@
 /*Contact*/
 #contact {
     float: right;
+    text-align: center;
 }
 
 #contact h2 {
@@ -172,3 +172,7 @@
 #contact p {
     color: #E9DFB7;
 }
+
+
+
+/*our_services.html*/

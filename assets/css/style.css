@@ -62,12 +62,13 @@
 #intro-container {
     background-color: #393939;
     height: 323px;
+    display: inline-block;
+    padding: 20px;
 }
 
 #intro {
     height: 300px;
     width: 65%;
-    margin: 10px 30px;
     border: 3px solid #34d0ba;
     float: left;
     background-color: #393939;
@@ -84,10 +85,9 @@
 }
 
 #intro-img-container {
-    width: 25%;
+    width: auto;
     height: 300px;
     padding: 1px;
-    margin: 10px 30px;
     float: right;
     background-color: #393939;
 }
@@ -225,18 +225,12 @@
     width: auto;
 }
 
-#serv-text-1 {
-    float: left;
-}
-
-#serv-text-2 {
-    float: right;
-}
-
-#serv-img-1 {
-    float: right;
-}
-
+#serv-text-1,
 #serv-img-2 {
     float: left;
+}
+
+#serv-text-2,
+#serv-img-1 {
+    float: right;
 }

@@ -193,11 +193,11 @@
 /*Other Services*/
 .services {
     height: 300px;
-    margin: 20px;
+    padding: 20px;
 }
 
 .serv-text {
-    width: auto;
+    width: 25%;
     border: 3px solid #34d0ba;
     height: 100%;
     padding: 3px;
@@ -218,6 +218,7 @@
     background-color: #393939;
     border: 3px solid #34d0ba;
     padding: 3px;
+    max-width: max-content;
 }
 
 .services img {
@@ -234,3 +235,5 @@
 #serv-img-1 {
     float: right;
 }
+
+/*at 1200 px, do smaller screen layout*/

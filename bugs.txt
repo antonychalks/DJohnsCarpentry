@@ -19,3 +19,7 @@
 5)  Problem: The line isn't showing beneath the active page.
     Cause: .active isnt appearing.
     Solution: 
+
+6)  Problem: Images won't load on the deployed page, but work fine on the http.server through python.
+    Cause: The file directory doesnt work with a / at the start.
+    Solution: Remove the / at the start.

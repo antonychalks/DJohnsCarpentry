@@ -37,18 +37,35 @@
     </header>
     <section>
         <form>
-            <h2>First Name</h2>
-            <h2>Last Name</h2>
-            <h2>Email Address</h2>
-            <h2>Phone Number</h2>
-            <h2>First Line of Address</h2>
-            <h2>Second Line of Address</h2>
-            <h2>Town/City</h2>
-            <h2>Postcode</h2>
-            <h2>Additional Information I.E Entrance Road, Access code</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" type="text" id="fname" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input class="text-input" type="text" id="lname" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            <label for="phone">Phone Number</label>
+            <input class="text-input" type="text" id="phone" name="phone_number">
+            <label for="first_add">First Line of Address</label>
+            <input class="text-input" type="text" id="first_add" name="first_line_of_address" required>
+            <label for="second_add">Second Line of Address</label>
+            <input class="text-input" type="text" id="second_add" name="second_line_of_address">
+            <label for="town_city">Town/City</label>
+            <input class="text-input" type="text" id="town_city" name="town_city" required>
+            <label for="postcode">Postcode</label>
+            <input class="text-input" type="text" id="postcode" name="postcode" required>
+            <label for="info">Additional Information (i.e Entrance Road, Access code)</label>
+            <input class="text-input" type="text" id="info" name="additional_info">
             <h2>Services Needed</h2>
-            <h2>Details of Services required</h2>
-            <h2>Budget</h2>
+            <label for="repair">Repair Work</label>
+            <input type="radio" id="repair" name="services" required>
+            <label for="new">New Addition</label>
+            <input type="radio" id="new" name="services" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="services" required>
+            <label for="services_details">Details of Services required</label>
+            <input class="text-input" type="text" id="services_details" name="services_details" required>
+            <label for="bugdet">Budget</label>
+            <input class="text-input" type="text" id="budget" name="budget">
             Submit button
         </form>
     </section>

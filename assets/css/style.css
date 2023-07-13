@@ -118,6 +118,7 @@
 .footer {
     height: 120px;
     display: inline;
+    clear: both;
 }
 
 .footer-container {
@@ -255,7 +256,79 @@
 
 .gallery-container h2 {
     margin-left: 20px;
-    color: #E9DFB7
+    color: #E9DFB7;
+}
+
+/*Form*/
+.form-container {
+    clear: left;
+    float: left;
+    width: 100%;
+}
+
+form label {
+    color: #E9DFB7;
+    float: left;
+}
+
+.text-input {
+    color: #E9DFB7;
+    width: 40%;
+    border: 2px solid #E9DFB7;
+    float: left;
+}
+
+form legend {
+    color: #E9DFB7;
+}
+
+#details-container {
+    border: 4px solid #34d0ba;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+    width: 50%;
+}
+
+#details-container label {
+    margin-left: 5px;
+}
+
+#details-container input {
+    width: 45%;
+}
+
+#details-container select {
+    display: inline-block;
+}
+
+#title,
+#gender {
+    color: #E9DFB7;
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #E9DFB7;
+}
+
+#address-container {
+    border: 4px solid #34d0ba;
+    margin: 20px;
+    padding: 10px;
+    height: 150px;
+}
+
+#address-container input {
+    width: 60%;
+    float: right;
+}
+
+#services-container {
+    border: 4px solid #34d0ba;
+    margin: 20px;
+    padding: 10px;
+    height: 150px;
 }
 
 /*at 1200 px, do smaller screen layout*/

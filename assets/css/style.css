@@ -5,28 +5,37 @@
     background-color: #393939;
 }
 
-/*Index.html*/
+/*Header*/
+.header {
+    height: 100px;
+}
 
 /*Logo*/
 
-.logo {
+#logo {
     float: left;
     margin-left: 20px;
+    text-decoration: none;
+    letter-spacing: 3px;
 }
 
-.logo,
-#navigation {
-    height: 100px;
+#logo,
+#navigation li {
     color: #34d0ba;
+    margin-top: 50px;
 }
 
 /*navigation*/
+#navigation {
+    float: right;
+    display: inline;
+}
 
 #navigation li {
     list-style-type: none;
     letter-spacing: 2px;
     margin-right: 20px;
-    float: right;
+    display: inline-block;
 }
 
 #navigation a {
@@ -41,6 +50,70 @@
 .active h2 {
     border-bottom: 3px solid #34d0ba;
 }
+
+/*Footer*/
+.footer {
+    height: 150px;
+    display: inline;
+    clear: both;
+}
+
+.footer-container {
+    margin: 0, 20px;
+    width: 33%;
+    height: 120px;
+    position: relative;
+}
+
+/* Socials */
+
+#socials {
+    float: left;
+    bottom: -30px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.footer-container li {
+    display: inline-block;
+    width: 25%;
+}
+
+.footer-container i {
+    color: #E9DFB7;
+    font-size: 50px;
+    clear: both;
+    text-align: center;
+}
+
+/*Certifications*/
+#certifications {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    display: inline;
+    clear: both;
+    left: 10%;
+    bottom: -30px;
+}
+
+/*Contact*/
+#contact {
+    float: right;
+    text-align: center;
+    display: inline;
+    bottom: -30px;
+}
+
+#contact h2 {
+    color: #34d0ba;
+}
+
+#contact p {
+    color: #E9DFB7;
+}
+
+/*Index.html*/
 
 /*Welcome image*/
 
@@ -62,8 +135,10 @@
 #intro-container {
     background-color: #393939;
     height: 323px;
+    width: 95%;
     display: inline-block;
     padding: 20px;
+    margin: 0 auto;
 }
 
 #intro {
@@ -104,6 +179,8 @@
     height: 400px;
     width: 100%;
     position: relative;
+    bottom: 0;
+    right: 0;
     overflow: hidden;
     clear: both;
 }
@@ -113,66 +190,6 @@
     width: 100%;
     background: url(../media/roof.jpg) no-repeat center center fixed;
 }
-
-/*Footer*/
-.footer {
-    height: 120px;
-    display: inline;
-    clear: both;
-}
-
-.footer-container {
-    margin: 0, 20px;
-    width: 25%;
-    height: 150px;
-    display: inline;
-}
-
-/* Socials */
-
-#socials {
-    float: left;
-    margin-top: 30px;
-}
-
-.footer-container li {
-    display: inline;
-    width: 25%;
-}
-
-.footer-container i {
-    color: #E9DFB7;
-    font-size: 50px;
-    width: 24%;
-    clear: both;
-    text-align: center;
-}
-
-/*Certifications*/
-#certifications {
-    margin: 0 auto;
-    text-align: center;
-    height: 50%;
-    margin-top: 40px;
-    display: inline;
-    clear: both;
-}
-
-/*Contact*/
-#contact {
-    float: right;
-    text-align: center;
-}
-
-#contact h2 {
-    color: #34d0ba;
-}
-
-#contact p {
-    color: #E9DFB7;
-}
-
-
 
 /*our_services.html*/
 
@@ -298,6 +315,11 @@ form legend {
     width: 45%;
 }
 
+input,
+label {
+    line-height: 10px;
+}
+
 #details-container select {
     display: inline-block;
 }
@@ -332,3 +354,91 @@ form legend {
 }
 
 /*at 1200 px, do smaller screen layout*/
+
+@media screen and (max-width: 1200px) {
+    #intro-container {
+        width: 97%;
+        height: 300px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #intro {
+        width: 57%;
+        float: left;
+        padding: 5px;
+        height: 290px;
+    }
+
+    #intro-img-container {
+        height: 280px;
+        margin-left: 5px;
+        padding: 0;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #intro-container {
+        width: 95%;
+    }
+
+    #intro {
+        height: auto;
+        width: 95%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #intro-img-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #logo,
+    #navigation {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navigation li {
+        margin-top: 5px;
+    }
+
+    .footer-container li {
+        width: 47%;
+    }
+
+    .footer-container i {
+        margin-left: 30px;
+    }
+
+    #certifications {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    #welcome-outer,
+    #roof2-container {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }
+
+    #intro-container {
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-container{
+        width: 95%;
+    }
+}

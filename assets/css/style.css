@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato&family=Poppins:wght@200&display=swap');
+
 * {
     border: none;
     margin: 0;
     padding: 0;
     background-color: #393939;
+}
+
+/*Fonts*/
+h1, h2, legend{
+    font-family: 'Inter', sans-serif;
+}
+
+#navigation td{
+    font-family: 'Lato', sans-serif;
+}
+
+p, li, label{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
 }
 
 /*Header*/
@@ -31,7 +47,7 @@
 
 
 
-#navigation{
+#navigation {
     float: right;
     margin-top: 50px;
 }
@@ -47,6 +63,10 @@
 
 #navigation h2 {
     font-size: medium;
+}
+
+#navigation i{
+    padding-bottom: 5px;
 }
 
 #navigation a {
@@ -69,6 +89,7 @@
 
 #footer {
     height: 150px;
+    clear: both;
 }
 
 #left-footer-container {
@@ -187,6 +208,7 @@
     text-align: center;
     color: #E9DFB7;
     margin: 0 30px;
+    font-size: small;
 }
 
 #intro-img-container {
@@ -265,10 +287,12 @@
     border: 3px solid #34d0ba;
     padding: 3px;
     width: 70%;
+    overflow: auto;
+        white-space: nowrap;
 }
 
 .services img {
-    height: 100%;
+    height: 97%;
     width: auto;
     margin: 0 auto;
     display: inline;
@@ -283,6 +307,14 @@
 #serv-img-1 {
     float: right;
 }
+
+#video-container{
+    height: 300px;
+    width: 100%;
+    border: red 3px solid;
+    clear: both;
+}
+
 
 /*Gallery*/
 .gallery {
@@ -543,6 +575,7 @@ form legend {
 
 /*For media screens smaller than 970px */
 @media screen and (max-width: 970px) {
+
     /*Header*/
     #logo,
     #navigation {
@@ -562,10 +595,12 @@ form legend {
 
 /*For media screens smaller than 768px (Tablet)*/
 @media screen and (max-width: 768px) {
+
     /*Header*/
-    #navigation h2{
+    #navigation h2 {
         visibility: hidden;
     }
+
     /*Footer*/
     #footer {
         height: auto;
@@ -654,62 +689,64 @@ form legend {
     .gallery img {
         height: 220px;
     }
+}
 
 
 
-    /*For media screens smaller than 426px (Phones)*/
-    @media screen and (max-width: 426px) {
-        #navigation i{
-            margin-bottom: 8px;
-        }
-        #center-footer-container {
-            width: 100%;
-            clear: both;
-            margin: 0;
-        }
-
-        #right-footer-container {
-            width: 100%;
-            clear: both;
-            margin: 0;
-        }
-
-        .contact {
-            text-align: center;
-            width: 100%;
-            margin: 0;
-        }
-
-        /*index.html*/
-
-        #intro-container {
-            width: 100%;
-            height: auto;
-            margin: 0;
-            padding: 0;
-        }
-
-        #intro {
-            width: auto;
-            margin: auto auto;
-        }
-
-        /*gallery.html*/
-        .gallery-container {
-            margin: 0;
-            padding: 0;
-            border: none;
-        }
-
-        .gallery {
-            margin: 0;
-            padding: 0;
-            border: none;
-        }
-
-        .gallery img {
-            margin: 0;
-            padding: 0;
-            border: none;
-        }
+/*For media screens smaller than 426px (Phones)*/
+@media screen and (max-width: 426px) {
+    #navigation i {
+        margin-bottom: 8px;
     }
+
+    #center-footer-container {
+        width: 100%;
+        clear: both;
+        margin: 0;
+    }
+
+    #right-footer-container {
+        width: 100%;
+        clear: both;
+        margin: 0;
+    }
+
+    .contact {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*index.html*/
+
+    #intro-container {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #intro {
+        width: auto;
+        margin: auto auto;
+    }
+
+    /*gallery.html*/
+    .gallery-container {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .gallery {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .gallery img {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}

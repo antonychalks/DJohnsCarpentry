@@ -23,3 +23,10 @@
 6)  Problem: Images won't load on the deployed page, but work fine on the http.server through python.
     Cause: The file directory doesnt work with a / at the start.
     Solution: Remove the / at the start.
+
+7)  Problem: The titles wern't displaying properly on the tab.
+    Cause: I forgot to change the <title> Elements on gallery and contact.
+    Solution: Corrected the <title> Elements.
+
+    Problem: After turning the nav into a table with the icons, the nav has changed position.
+    Cause: I didnt close

@@ -8,15 +8,20 @@
 }
 
 /*Fonts*/
-h1, h2, legend{
+h1,
+h2,
+legend,
+a {
     font-family: 'Inter', sans-serif;
 }
 
-#navigation td{
+#navigation td {
     font-family: 'Lato', sans-serif;
 }
 
-p, li, label{
+p,
+li,
+label {
     font-family: 'Poppins', sans-serif;
     font-size: small;
 }
@@ -36,10 +41,7 @@ p, li, label{
     margin-left: 10px;
     text-decoration: none;
     letter-spacing: 3px;
-}
-
-#logo {
-    color: #34d0ba;
+    color: #3CF0D8;
     margin-top: 50px;
 }
 
@@ -58,30 +60,30 @@ p, li, label{
     width: 130px;
     height: 25px;
     padding-bottom: 2px;
-    color: #34d0ba;
+    color: #3cf0d8;
 }
 
 #navigation h2 {
     font-size: medium;
 }
 
-#navigation i{
+#navigation i {
     padding-bottom: 5px;
 }
 
 #navigation a {
-    color: #34d0ba;
+    color: #3cf0d8;
     text-decoration: none;
 }
 
 #navigation h2:hover,
 #navigation i:hover {
-    border-bottom: 3px solid #34d0ba;
+    border-bottom: 3px solid #3cf0d8;
     width: 100%;
 }
 
 .active i {
-    border-bottom: 3px solid #34d0ba;
+    border-bottom: 3px solid #3cf0d8;
     width: 100%;
 }
 
@@ -156,7 +158,7 @@ p, li, label{
 }
 
 .contact h2 {
-    color: #34d0ba;
+    color: #3cf0d8;
 }
 
 .contact p {
@@ -167,7 +169,7 @@ p, li, label{
 
 /*Welcome image*/
 
-#welcome-outer {
+#welcome-container {
     height: 400px;
     width: 100%;
     position: relative;
@@ -179,6 +181,42 @@ p, li, label{
     height: 100%;
     width: 100%;
     background: url(../media/roof2.jpg) no-repeat center center;
+}
+
+.overlay-buttons {
+    height: 150px;
+    width: 200px;
+    border: #3cf0d8 solid 3px;
+    border-radius: 30px;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    background: rgb(52, 208, 186, .8);
+}
+
+.overlay-buttons:hover {
+    border-color: rgb(60, 240, 216);
+    background: rgb(60, 240, 216);
+    cursor: pointer;
+}
+
+.overlay-buttons h2 {
+    background: none;
+    color: #E9DFB7;
+    text-align: center;
+    font-size: 200%;
+}
+
+.overlay-buttons a {
+    text-decoration: none;
+}
+
+#overlay-quote {
+    left: 50px;
+}
+
+#overlay-gallery {
+    right: 50px
 }
 
 /* Intro */
@@ -194,13 +232,13 @@ p, li, label{
 #intro {
     height: 300px;
     width: 65%;
-    border: 3px solid #34d0ba;
+    border: 3px solid #3cf0d8;
     float: left;
     background-color: #393939;
 }
 
 #intro h2 {
-    color: #34d0ba;
+    color: #3cf0d8;
     margin-left: 30px;
 }
 
@@ -216,7 +254,7 @@ p, li, label{
     height: 300px;
     padding: 1px;
     float: right;
-    border: 3px solid #34d0ba;
+    border: 3px solid #3cf0d8;
 }
 
 #intro-img {
@@ -267,13 +305,13 @@ p, li, label{
 
 .serv-text {
     width: 25%;
-    border: 3px solid #34d0ba;
+    border: 3px solid #3cf0d8;
     height: 100%;
     padding: 3px;
 }
 
 .services h2 {
-    color: #34d0ba;
+    color: #3cf0d8;
     margin-left: 20px;
 }
 
@@ -284,11 +322,11 @@ p, li, label{
 
 .serv-img-container {
     height: 100%;
-    border: 3px solid #34d0ba;
+    border: 3px solid #3cf0d8;
     padding: 3px;
     width: 70%;
     overflow: auto;
-        white-space: nowrap;
+    white-space: nowrap;
 }
 
 .services img {
@@ -308,7 +346,7 @@ p, li, label{
     float: right;
 }
 
-#video-container{
+#video-container {
     height: 300px;
     width: 100%;
     border: red 3px solid;
@@ -320,7 +358,7 @@ p, li, label{
 .gallery {
     width: 95%;
     height: 500px;
-    border: 5px solid #34d0ba;
+    border: 5px solid #3cf0d8;
     margin: 10px 20px 50px;
     padding: 5px;
     overflow: auto;
@@ -365,7 +403,7 @@ form legend {
 }
 
 #details-container {
-    border: 4px solid #34d0ba;
+    border: 4px solid #3cf0d8;
     padding: 10px;
     height: 230px;
     width: 30%;
@@ -396,7 +434,7 @@ form legend {
 }
 
 #address-container {
-    border: 4px solid #34d0ba;
+    border: 4px solid #3cf0d8;
     margin-right: 30px;
     padding: 10px;
     height: 230px;
@@ -410,7 +448,7 @@ form legend {
 }
 
 #services-container {
-    border: 4px solid #34d0ba;
+    border: 4px solid #3cf0d8;
     padding: 10px;
     height: 180px;
     width: 60%;
@@ -453,7 +491,7 @@ form legend {
     padding: 15px 15px;
     text-align: center;
     font-size: 20px;
-    background-color: #34d0ba;
+    background-color: #3cf0d8;
     color: #fafafa;
     position: relative;
     left: 25%;

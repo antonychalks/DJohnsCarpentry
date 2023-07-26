@@ -14,14 +14,21 @@
 </head>
 
 <body>
+    <!-- The header -->
     <header class="header">
+
+        <!--The logo on the top right. -->
         <a href="index.html" id="logo">
             <h1>SNA Bespoke Carpentry</h1>
         </a>
 
-        <h2 class="page-title">Get in touch</h2>
+        <!-- Page title, only appears on smaller screen sizes in place of the h2 elements of the nav. -->
+        <h2 class="page-title">Home</h2>
 
+        <!--Navigation links to get to the rest of the website. -->
         <nav id="nav">
+
+            <!--The purpose of the table is so the nav element is in two rows. -->
             <table role=presentation id="navigation">
                 <tr>
                     <td><a href="index.html">
@@ -38,21 +45,24 @@
                         </a></td>
                 </tr>
                 <tr>
-                    <td><a href="index.html"><i class="fa-solid fa-house"></i></a></td>
+                    <td class="active"><a href="index.html"><i class="fa-solid fa-house"></i></a></td>
                     <td><a href="our_services.html"><i class="fa-solid fa-hammer"></i></a></td>
                     <td><a href="gallery.html"><i class="fa-solid fa-image"></i></a></td>
-                    <td class="active"><a href="contact.html"><i class="fa-solid fa-phone"></i></a></td>
+                    <td><a href="contact.html"><i class="fa-solid fa-phone"></i></a></td>
                 </tr>
-
-
             </table>
         </nav>
     </header>
-    <form class="form-container" action="https://formdump.codeinstitute.net/" methon="post">
+
+    <!--The beginning of the form -->
+    <form class="form-container" action="https://formdump.codeinstitute.net/" method="post">
         <p>* Indicates the field is required</p>
+
+        <!--The section where all the details of the customer are entered with contact information.-->
         <fieldset id="details-container">
             <legend>Personal Details</legend>
             <label for="title">Title*</label>
+            <!--A drop down list of different titles -->
             <select id="title" name="title" required>
                 <option value="Mr">Mr</option>
                 <option value="mrs">Mrs</option>
@@ -64,6 +74,7 @@
                 <option value="lord">Lord</option>
                 <option value="lady">Lady</option>
             </select> <br>
+            <!--A drop down list for different gender selections.-->
             <label for="gender">Gender*</label>
             <select id="gender" name="gender" required>
                 <option value="male">Male</option>
@@ -80,6 +91,7 @@
             <label for="phone">Phone Number</label><br>
             <input class="text-input" type="number" id="phone" name="phone_number">
         </fieldset>
+        <!--The section for the customers address details. -->
         <fieldset id="address-container">
             <legend>Address</legend>
             <label for="first_add">First Line of Address*</label><br>
@@ -93,6 +105,7 @@
             <label for="info">Additional Information <br>(i.e Entrance Road, Access code)</label><br>
             <input class="text-input" type="text" id="info" name="additional_info">
         </fieldset>
+        <!--The section for all the details of work required. -->
         <fieldset id="services-container">
             <legend>Services Needed</legend>
             <p>Type of Work*</p>
@@ -129,31 +142,40 @@
                 </tr>
 
             </table>
-            <!--- The idea for the table to horizontally align the radio buttons and the budget inpput and label came from stack: "https://stackoverflow.com/questions/52242307/css-how-to-display-a-radiobuttonlist-horizontally"-->
+            <!--- The idea for the table to horizontally align the radio buttons and the budget inpput and label came from stack: "https://stackoverflow.com/questions/52242307/css-how-to-display-a-radiobuttonlist-horizontally". This was also later used for the Navigation element.-->
             <label for="services_details">Details of Services required*</label><br>
             <input class="text-input" type="text" id="services_details" name="services_details" required><br>
         </fieldset>
+        <!--The section for the Submit and Reset buttons. -->
         <fieldset id="button-container">
             <legend>Submit/Reset</legend>
             <input class="form-button" type="Submit" value="Send Request!"><br>
             <input class="form-button" type="reset" value="Reset">
         </fieldset>
     </form>
+    <!--A final image to finish the page-->
     <img id="landscapeRoof" src="assets/media/landscape roof.jpg" alt="A landscape image of a roof">
 
 
 
+    <!--The beginning of the footer -->
     <footer id="footer">
+
+        <!--This is for the icons and links of the social network pages. -->
         <div id="left-footer-container">
             <ul class="socials">
-                <li><a href="https://www.instagram.com/sa_bespoke_carpentry/"><i class="fa-brands fa-instagram"></i></a>
+                <li><a href="https://www.instagram.com/sa_bespoke_carpentry/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
                 </li>
-                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a></li>
-                <li><a href="mailto:snaproducts@hotmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="mailto:snaproducts@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </li>
                 <!---I found mailto and how to use it on https://www.tutorialspoint.com/html/html_email_links.htm-->
             </ul>
         </div>
+
+        <!--This is to give all the information of where to find the company and their phone number and email. -->
         <div id="right-footer-container">
             <div class="contact">
                 <h2>Contact Us</h2>
@@ -164,14 +186,17 @@
                 <p>SNAProducts@hotmail.com</p>
             </div>
         </div>
+
+        <!--These are the certifications associated with the company -->
         <div id="center-footer-container">
             <div class="certifications">
                 <img src="assets/media/certifications/dbs.jpg" alt="DBS certifiaction logo">
                 <img src="assets/media/certifications/first-aid.jpg" alt="First aid certification logo">
             </div>
         </div>
-
     </footer>
+
+    <!--This is the script for the icons -->
     <script src="https://kit.fontawesome.com/af2386e8fe.js" crossorigin="anonymous"></script>
 </body>
 

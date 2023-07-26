@@ -32,7 +32,11 @@
     Cause: I didnt close the table element.
     Solution: Closed the element with </table>
 
-9) Problem: the opacity on the overlay buttons are in two different levels.
+9)  Problem: the opacity on the overlay buttons are in two different levels.
     Cause: I added a background color of "rgb(52, 208, 186, .5)" to both the container and the h2 element.
     Solution: Remove the background color from the h2 element with "background: none;"
+    
+10) Problem: At smaller screen sizes the form spaced out too much vertically
+    Cause: The margin and padding were too large for the screensize.
+    Solution: Removed the margin and padding for the label and input except the top and bottom margin.
 

@@ -14,14 +14,21 @@
 </head>
 
 <body>
+    <!-- The header -->
     <header class="header">
+
+        <!--The logo on the top right. -->
         <a href="index.html" id="logo">
             <h1>SNA Bespoke Carpentry</h1>
         </a>
 
-        <h2 class="page-title">Our Services</h2>
+        <!-- Page title, only appears on smaller screen sizes in place of the h2 elements of the nav. -->
+        <h2 class="page-title">Home</h2>
 
+        <!--Navigation links to get to the rest of the website. -->
         <nav id="nav">
+
+            <!--The purpose of the table is so the nav element is in two rows. -->
             <table role=presentation id="navigation">
                 <tr>
                     <td><a href="index.html">
@@ -38,19 +45,21 @@
                         </a></td>
                 </tr>
                 <tr>
-                    <td><a href="index.html"><i class="fa-solid fa-house"></i></a></td>
-                    <td class="active"><a href="our_services.html"><i class="fa-solid fa-hammer"></i></a></td>
+                    <td class="active"><a href="index.html"><i class="fa-solid fa-house"></i></a></td>
+                    <td><a href="our_services.html"><i class="fa-solid fa-hammer"></i></a></td>
                     <td><a href="gallery.html"><i class="fa-solid fa-image"></i></a></td>
                     <td><a href="contact.html"><i class="fa-solid fa-phone"></i></a></td>
                 </tr>
-        
-        
             </table>
         </nav>
     </header>
+
+    <!--Inital landscape image on the page -->
     <section id="extension-outer">
         <div id="extension-img"></div>
     </section>
+
+    <!--This section is to list the services that are offered by the company. -->
     <section class="services">
         <div class="serv-text" id="serv-text-1">
             <h2>Services we offer</h2>
@@ -68,12 +77,15 @@
                 <li>Groundswork - Turfing, Digging by hand or with plant.</li>
             </ul>
         </div>
+        <!--Some images to show examples of work offered by the company. -->
         <div class="serv-img-container" id="serv-img-1">
             <img src="assets/media/roof-rafters.jpg" alt="Some roof rafters in place.">
             <img src="assets/media/cupboard2.jpg" alt="A built in wardrobe.">
             <img src="assets/media/understair-shelves.jpg" alt="Some shelves under a stair case.">
         </div>
     </section>
+
+    <!--This section lists the services the company doesn't offer, but has links to-->
     <section class="services">
         <div class="serv-text" id="serv-text-2">
             <h2>Other services from 3rd parties</h2>
@@ -90,8 +102,10 @@
                 <li>Underfloor Heating</li>
             </ul>
         </div>
+        <!--Some Images and a video to show examples of work that has been done by 3rd parties. -->
         <div class="serv-img-container" id="serv-img-2">
-            <video src="assets/media/under-floor-heating.mp4" controls muted height="300px">A video of Under-floor heating before
+            <video src="assets/media/video/under-floor-heating.mp4" controls muted height="300px">A video of Under-floor
+                heating before
                 being covered</video>
             <img src="assets/media/bricklaying.jpg" alt="A brickwall being built.">
             <img src="assets/media/lintle-fireplace.jpg" alt="A lintle above a fireplace on an interior brick wall.">
@@ -99,17 +113,24 @@
         </div>
     </section>
 
+    <!--The beginning of the footer -->
     <footer id="footer">
+
+        <!--This is for the icons and links of the social network pages. -->
         <div id="left-footer-container">
             <ul class="socials">
-                <li><a href="https://www.instagram.com/sa_bespoke_carpentry/"><i class="fa-brands fa-instagram"></i></a>
+                <li><a href="https://www.instagram.com/sa_bespoke_carpentry/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
                 </li>
-                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a></li>
-                <li><a href="mailto:snaproducts@hotmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="mailto:snaproducts@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </li>
                 <!---I found mailto and how to use it on https://www.tutorialspoint.com/html/html_email_links.htm-->
             </ul>
         </div>
+
+        <!--This is to give all the information of where to find the company and their phone number and email. -->
         <div id="right-footer-container">
             <div class="contact">
                 <h2>Contact Us</h2>
@@ -120,14 +141,17 @@
                 <p>SNAProducts@hotmail.com</p>
             </div>
         </div>
+
+        <!--These are the certifications associated with the company -->
         <div id="center-footer-container">
             <div class="certifications">
                 <img src="assets/media/certifications/dbs.jpg" alt="DBS certifiaction logo">
                 <img src="assets/media/certifications/first-aid.jpg" alt="First aid certification logo">
             </div>
         </div>
-    
     </footer>
+
+    <!--This is the script for the icons -->
     <script src="https://kit.fontawesome.com/af2386e8fe.js" crossorigin="anonymous"></script>
 </body>
 

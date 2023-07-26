@@ -381,7 +381,7 @@ label {
 .form-container {
     width: 96%;
     margin: 10px 2%;
-    height:max-content;
+    height: max-content;
 }
 
 form p {
@@ -608,14 +608,36 @@ form legend {
     #input-container,
     #button-container {
         width: 95%;
+        height: auto;
         margin: none;
         border-left: none;
         border-right: none;
         clear: both;
         float: left;
     }
-    
-    .form-container{
+
+    #details-container input,
+    #address-container input,
+    #services-container input {
+        width: 90%;
+        margin-left: 0;
+        float: left;
+    }
+
+    #details-container label,
+    #address-container label,
+    #services-container label {
+        float: left;
+        line-height: 16px;
+    }
+
+    #gender,
+    #gender label {
+        width: 100%;
+        float: right;
+    }
+
+    .form-container {
         padding: 0;
         width: 100%;
     }
@@ -624,8 +646,8 @@ form legend {
         height: auto;
     }
 
-    .form-button{
-        margin: 10px 0 ;
+    .form-button {
+        margin: 10px 0;
         border-radius: 50px;
         height: 100%;
         width: 100%;
@@ -659,12 +681,18 @@ form legend {
 @media screen and (max-width: 768px) {
 
     /*Header*/
+
+    #logo {
+        font-size: 80%;
+    }
+
     #navigation h2 {
         visibility: hidden;
     }
 
     .page-title {
         visibility: visible;
+        font-size: 90%;
     }
 
     /*Footer*/
@@ -780,10 +808,14 @@ form legend {
 
 /*For media screens smaller than 426px (Phones)*/
 @media screen and (max-width: 426px) {
+    * {
+        margin-bottom: 30px;
+    }
 
     /*Header*/
-    #logo{
-        font-size: 80%;
+
+    #logo {
+        font-size: 65%;
     }
 
     #navigation i {
@@ -842,5 +874,29 @@ form legend {
         margin: 0;
         padding: 0;
         border: none;
+    }
+
+    #details-container,
+    #address-container,
+    #services-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    #details-container input,
+    #address-container input,
+    #services-container input {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    #details-container label,
+    #address-container label,
+    #services-container label {
+        float: left;
+        clear: both;
+        line-break: auto;
+        margin: 0;
+        padding: 0;
     }
 }

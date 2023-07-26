@@ -379,8 +379,9 @@ label {
 
 /*Form*/
 .form-container {
-    width: 100%;
-    margin: 20px;
+    width: 96%;
+    margin: 10px 2%;
+    height:max-content;
 }
 
 form p {
@@ -403,11 +404,13 @@ form legend {
     color: #E9DFB7;
 }
 
+/*Personal Details*/
+
 #details-container {
     border: 4px solid #3cf0d8;
     padding: 10px;
     height: 230px;
-    width: 30%;
+    width: 33%;
     line-height: 20px;
     float: left;
 }
@@ -417,11 +420,12 @@ form legend {
 }
 
 #details-container input {
-    width: 100%;
+    width: 90%;
+    float: left;
 }
 
 #details-container select {
-    float: right;
+    float: left;
     width: 30%;
 }
 
@@ -434,9 +438,10 @@ form legend {
     border: 1px solid #E9DFB7;
 }
 
+/*Address*/
+
 #address-container {
     border: 4px solid #3cf0d8;
-    margin-right: 30px;
     padding: 10px;
     height: 230px;
     width: 60%;
@@ -444,10 +449,11 @@ form legend {
 }
 
 #address-container input {
-    width: 100%;
+    width: 90%;
     float: right;
 }
 
+/*Services*/
 #services-container {
     border: 4px solid #3cf0d8;
     padding: 10px;
@@ -457,7 +463,7 @@ form legend {
 }
 
 #services-container input {
-    width: 100%;
+    width: 90%;
     text-align: left;
 }
 
@@ -470,33 +476,32 @@ form legend {
 }
 
 #services_details {
-    height: 80px;
+    height: 30%;
 }
 
 .radio input {
     margin-left: 30px;
 }
 
-/*Submit Button*/
+/*Submit and reset buttons*/
 
-#submit-container {
-    padding: 10px;
-    height: 150px;
-    width: 30%;
+#button-container {
+    height: 200px;
+    border: 4px solid #3cf0d8;
+    width: 33%;
+    line-height: 20px;
     float: right;
 }
 
-.submit-button {
-    margin: 0;
+.form-button {
+    margin: 10px 10%;
+    width: 80%;
     border-radius: 50px;
     padding: 15px 15px;
     text-align: center;
     font-size: 20px;
     background-color: #3cf0d8;
     color: #fafafa;
-    position: relative;
-    left: 25%;
-    top: 33%;
 }
 
 #landscapeRoof {
@@ -601,23 +606,26 @@ form legend {
     #address-container,
     #services-container,
     #input-container,
-    .form-container {
-        width: 100%;
-        clear: both;
-        margin: 0;
-        float: left;
+    #button-container {
+        width: 95%;
+        margin: none;
         border-left: none;
         border-right: none;
-    }
-
-    #submit-container {
-        height: auto;
-        width: 100%;
+        clear: both;
         float: left;
     }
+    
+    .form-container{
+        padding: 0;
+        width: 100%;
+    }
 
-    .submit-button {
-        margin: 0;
+    #button-container {
+        height: auto;
+    }
+
+    .form-button{
+        margin: 10px 0 ;
         border-radius: 50px;
         height: 100%;
         width: 100%;
@@ -772,9 +780,17 @@ form legend {
 
 /*For media screens smaller than 426px (Phones)*/
 @media screen and (max-width: 426px) {
+
+    /*Header*/
+    #logo{
+        font-size: 80%;
+    }
+
     #navigation i {
         margin-bottom: 8px;
     }
+
+    /*Footer*/
 
     #center-footer-container {
         width: 100%;

@@ -43,101 +43,102 @@
                     <td><a href="gallery.html"><i class="fa-solid fa-image"></i></a></td>
                     <td class="active"><a href="contact.html"><i class="fa-solid fa-phone"></i></a></td>
                 </tr>
-        
-        
+
+
             </table>
         </nav>
     </header>
+    <form class="form-container" action="https://formdump.codeinstitute.net/" methon="post">
+        <p>* Indicates the field is required</p>
+        <fieldset id="details-container">
+            <legend>Personal Details</legend>
+            <label for="title">Title*</label>
+            <select id="title" name="title" required>
+                <option value="Mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="miss">Miss</option>
+                <option value="ms">Ms</option>
+                <option value="mx">Mx</option>
+                <option value="dr">Dr</option>
+                <option value="sir">Sir</option>
+                <option value="lord">Lord</option>
+                <option value="lady">Lady</option>
+            </select> <br>
+            <label for="gender">Gender*</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                <option value="prefer_not_to_say">Prefer not to say</option>
+            </select> <br>
+            <label for="fname">First Name*</label><br>
+            <input class="text-input" type="text" id="fname" name="first_name" required><br>
+            <label for="lname">Last Name*</label><br>
+            <input class="text-input" type="text" id="lname" name="last_name" required><br>
+            <label for="email">Email Address*</label><br>
+            <input class="text-input" type="email" id="email" name="email_address" required><br>
+            <label for="phone">Phone Number</label><br>
+            <input class="text-input" type="number" id="phone" name="phone_number">
+        </fieldset>
+        <fieldset id="address-container">
+            <legend>Address</legend>
+            <label for="first_add">First Line of Address*</label><br>
+            <input class="text-input" type="text" id="first_add" name="first_line_of_address" required><br>
+            <label for="second_add">Second Line of Address</label><br>
+            <input class="text-input" type="text" id="second_add" name="second_line_of_address"><br>
+            <label for="town_city">Town/City*</label><br>
+            <input class="text-input" type="text" id="town_city" name="town_city" required><br>
+            <label for="postcode">Postcode*</label><br>
+            <input class="text-input" type="text" id="postcode" name="postcode" required><br>
+            <label for="info">Additional Information <br>(i.e Entrance Road, Access code)</label><br>
+            <input class="text-input" type="text" id="info" name="additional_info">
+        </fieldset>
+        <fieldset id="services-container">
+            <legend>Services Needed</legend>
+            <p>Type of Work*</p>
+            <table role=presentation>
+                <tr id="table-top">
+                    <td>
+                        <label for="repair">Repair Work</label>
+                    </td>
+                    <td>
+                        <label for="new">New Addition</label>
+                    </td>
+                    <td>
+                        <label for="both">Both</label>
+                    </td>
+                    <td style="width:50%;"></td>
+                    <td>
+                        <label for="bugdet">Budget (£)</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="repair" name="services" value="repair" required><br>
+                    </td>
+                    <td>
+                        <input type="radio" id="new" name="services" value="new" required><br>
+                    </td>
+                    <td>
+                        <input type="radio" id="both" name="services" value="both" required><br>
+                    </td>
+                    <td style="width:50%;"></td>
+                    <td>
+                        <input class="text-input" type="number" id="budget" name="budget">
+                    </td>
+                </tr>
 
-    <section class="form-container">
-        <form>
-            <p>* Indicates the field is required</p>
-            <fieldset id="details-container">
-                <legend>Personal Details</legend>
-                <label for="title">Title*</label>
-                <select id="title" name="title" required>
-                    <option value="Mr">Mr</option>
-                    <option value="mrs">Mrs</option>
-                    <option value="miss">Miss</option>
-                    <option value="ms">Ms</option>
-                    <option value="mx">Mx</option>
-                    <option value="dr">Dr</option>
-                    <option value="sir">Sir</option>
-                    <option value="lord">Lord</option>
-                    <option value="lady">Lady</option>
-                </select> <br>
-                <label for="gender">Gender*</label>
-                <select id="gender" name="gender" required>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                    <option value="prefer_not_to_say">Prefer not to say</option>
-                </select> <br>
-                <label for="fname">First Name*</label><br>
-                <input class="text-input" type="text" id="fname" name="first_name" required><br>
-                <label for="lname">Last Name*</label><br>
-                <input class="text-input" type="text" id="lname" name="last_name" required><br>
-                <label for="email">Email Address*</label><br>
-                <input class="text-input" type="email" id="email" name="email_address" required><br>
-                <label for="phone">Phone Number</label><br>
-                <input class="text-input" type="number" id="phone" name="phone_number">
-            </fieldset>
-            <fieldset id="address-container">
-                <legend>Address</legend>
-                <label for="first_add">First Line of Address*</label><br>
-                <input class="text-input" type="text" id="first_add" name="first_line_of_address" required><br>
-                <label for="second_add">Second Line of Address</label><br>
-                <input class="text-input" type="text" id="second_add" name="second_line_of_address"><br>
-                <label for="town_city">Town/City*</label><br>
-                <input class="text-input" type="text" id="town_city" name="town_city" required><br>
-                <label for="postcode">Postcode*</label><br>
-                <input class="text-input" type="text" id="postcode" name="postcode" required><br>
-                <label for="info">Additional Information <br>(i.e Entrance Road, Access code)</label><br>
-                <input class="text-input" type="text" id="info" name="additional_info">
-            </fieldset>
-            <fieldset id="services-container">
-                <legend>Services Needed</legend>
-                <p>Type of Work*</p>
-                <table role=presentation>
-                    <tr id="table-top">
-                        <td>
-                            <label for="repair">Repair Work</label>
-                        </td>
-                        <td>
-                            <label for="new">New Addition</label>
-                        </td>
-                        <td>
-                            <label for="both">Both</label>
-                        </td>
-                        <td style="width:50%;"></td>
-                        <td>
-                            <label for="bugdet">Budget (£)</label><br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="radio" id="repair" name="services" value="repair" required><br>
-                        </td>
-                        <td>
-                            <input type="radio" id="new" name="services" value="new" required><br>
-                        </td>
-                        <td>
-                            <input type="radio" id="both" name="services" value="both" required><br>
-                        </td>
-                        <td style="width:50%;"></td>
-                        <td>
-                            <input class="text-input" type="number" id="budget" name="budget">
-                        </td>
-                    </tr>
-
-                </table>
-                <!--- The idea for the table to horizontally align the radio buttons and the budget inpput and label came from stack: "https://stackoverflow.com/questions/52242307/css-how-to-display-a-radiobuttonlist-horizontally"-->
-                <label for="services_details">Details of Services required*</label><br>
-                <input class="text-input" type="text" id="services_details" name="services_details" required><br>
-            </fieldset>
-                <input class="submit-button" type="Submit" value="Send Request!">
-        </form>
-    </section><br>
+            </table>
+            <!--- The idea for the table to horizontally align the radio buttons and the budget inpput and label came from stack: "https://stackoverflow.com/questions/52242307/css-how-to-display-a-radiobuttonlist-horizontally"-->
+            <label for="services_details">Details of Services required*</label><br>
+            <input class="text-input" type="text" id="services_details" name="services_details" required><br>
+        </fieldset>
+        <fieldset id="button-container">
+            <legend>Submit/Reset</legend>
+            <input class="form-button" type="Submit" value="Send Request!"><br>
+            <input class="form-button" type="reset" value="Reset">
+        </fieldset>
+    </form>
     <img id="landscapeRoof" src="assets/media/landscape roof.jpg" alt="A landscape image of a roof">
 
 

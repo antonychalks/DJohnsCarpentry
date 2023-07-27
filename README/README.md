@@ -135,7 +135,7 @@ Testing through Validators.
 HTML
 No errors were returned when passing through the official W3C validator
 CSS
-No errors were found when passing through the official (Jigsaw) validator
+One warning was found when passing through the official (Jigsaw) validator. The warning states: "Same color for background-color and border-color" on the rule ".overlay-buttons:hover" on line 208. I have not changed the rule as that is the effect I would like when the mouse hovers over the buttons.
 
 ##
 Deployment

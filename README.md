@@ -140,11 +140,14 @@ One warning was found when passing through the official (Jigsaw) validator. The 
 ##
 Deployment
 
-To deploy this website through github I completed the following steps:
-1. Firstly, I opened the repository on github.com and clicked settings.
-2. After that, I clicked on the 'pages' tab under the Code and automation section on the right side of the screen.
-3. Under the branch heading, I selected a branch by clicking on the 'None' button and selecting the 'main' option.
-4. Finally I clicked save to deploy the site.
+To deploy this website through github pages I completed the following steps:
+
+1. First, log into github and locate the repository.
+2. Then, I opened the repository and clicked settings along the top of the page.
+3. After that, I clicked on the 'pages' tab under the 'Code and automation' section on the left side of the screen.
+4. Under the branch heading, I selected a branch by clicking on the 'None' button and selecting the 'main' option.
+5. Finally I clicked save to deploy the site.
+6. After refreshing the page, the website link will be at the top of the screen (sometimes this can take a while.)
 
 The link to his deployed page can be found here: [SNA Bespoke Carpentry](https://antonychalks.github.io/SNACarpentry/)
 

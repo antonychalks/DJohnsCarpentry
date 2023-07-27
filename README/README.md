@@ -13,14 +13,14 @@ All Pages
 
 **Header:**
 
--In the header I have included a simple Logo of the company name that links back to the home page. This also introduces the color scheme for the website as a whole.
--I have also included navigation with icons and writting to easily navigate between the different pages. On smaller screens the writing in not visible and instead there is a title of the page you are currently on, but the icons also remain.
+- In the header I have included a simple Logo of the company name that links back to the home page. This also introduces the color scheme for the website as a whole.
+- I have also included navigation with icons and writting to easily navigate between the different pages. On smaller screens the writing in not visible and instead there is a title of the page you are currently on, but the icons also remain.
 
 **Footer:**
 
--On the left side of the footer is the links to the social networks denotted with icons. This includes Instagram, Facebook, Twitter and a link that opens the user's default E-mail app with the companies E-mail address already inserted. This makes it very easy to find any of the social links the user might want.
--In the center of the footer are two images of the certifications the company is certified with to show the user that the company is trusted in these aspects. In this instance we have included DBS for working with children and vulnerable adults, and a level 3 first aid course.
--On the right hand side is the contact information with the address, phone number and e-mail of the company. This is to make it easy to find any contact information the user might need.
+- On the left side of the footer is the links to the social networks denotted with icons. This includes Instagram, Facebook, Twitter and a link that opens the user's default E-mail app with the companies E-mail address already inserted. This makes it very easy to find any of the social links the user might want.
+- In the center of the footer are two images of the certifications the company is certified with to show the user that the company is trusted in these aspects. In this instance we have included DBS for working with children and vulnerable adults, and a level 3 first aid course.
+- On the right hand side is the contact information with the address, phone number and e-mail of the company. This is to make it easy to find any contact information the user might need.
 
 All of the features in the header and footer are places where the user might expect so as to make the website predictable for the user and thus easy to use.
 
@@ -31,15 +31,15 @@ The home page layout is designed so its clear what each section is for. This mak
 
 **Welcome image.**
 
--The welcome image is in place to show the user a project that the company has completed. This not only acts as an example of some work that is underway but not completed, but also indicated to the user, amongst other things, what the website is made for.
--The 'Get a Quote' button on the left is there as one of the first things the user can see when they open the website, so that if someone is just on the website to get a quote, it's immediately clear where to click to get where they need to.
--The 'Visit our Gallery' button on the right is to bring the user to the gallery. This is so if the user doesn't want to read the introduction, and they have just come to the website to view the images, they can get there easily.
+- The welcome image is in place to show the user a project that the company has completed. This not only acts as an example of some work that is underway but not completed, but also indicated to the user, amongst other things, what the website is made for.
+- The 'Get a Quote' button on the left is there as one of the first things the user can see when they open the website, so that if someone is just on the website to get a quote, it's immediately clear where to click to get where they need to.
+- The 'Visit our Gallery' button on the right is to bring the user to the gallery. This is so if the user doesn't want to read the introduction, and they have just come to the website to view the images, they can get there easily.
 ![Screenshot of the welcome image with overlay buttons.](/README/screenshots/welcome-picture.jpg)
 
 **Introduction.**
 
--The writing in the introduction section is made of 3 headers and paragraphs to give a short introduction into who SNA Bespoke Carpentry is and what they do.
--The image next to the introduction is to show another example of some work the company has completed.
+- The writing in the introduction section is made of 3 headers and paragraphs to give a short introduction into who SNA Bespoke Carpentry is and what they do.
+- The image next to the introduction is to show another example of some work the company has completed.
 
 [Screenshot of the introduction text with the image to the side.](/README/screenshots/intro.jpg)
 
@@ -90,10 +90,10 @@ This section of the form is to gather all the information about the customer, li
 
 ![Screenshot of the personal details section.](/README/screenshots/personal-details.jpg)
 
--The title and gender inputs are drop down lists so as to make it easier for the user.
--The phone input is set to only recieve a integers as apposed to any letters or text.
--The email input is set to recognise an e-mail.
--All other inputs are set to recieve text.
+- The title and gender inputs are drop down lists so as to make it easier for the user.
+- The phone input is set to only recieve a integers as apposed to any letters or text.
+- The email input is set to recognise an e-mail.
+- All other inputs are set to recieve text.
 
 **Address Details**
 
@@ -158,13 +158,13 @@ Other sources used
 
 **Content**
 
--[w3schools HTML](https://www.w3schools.com/html/) for quick searching specific HTML elements, their attributes and how to use them.
--[w3schools CSS](https://www.w3schools.com/CSS/) for quick searching different styling rules and how to apply them with the correct values.
--[Font Awesome](https://fontawesome.com/) for the icons used in the navigation and the footer.
--[Google Fonts](https://fonts.google.com/) for the fonts used throughout the website.
+- [w3schools HTML](https://www.w3schools.com/html/) for quick searching specific HTML elements, their attributes and how to use them.
+- [w3schools CSS](https://www.w3schools.com/CSS/) for quick searching different styling rules and how to apply them with the correct values.
+- [Font Awesome](https://fontawesome.com/) for the icons used in the navigation and the footer.
+- [Google Fonts](https://fonts.google.com/) for the fonts used throughout the website.
 Other specific code I used is credited in comments next to the code.
 
 **Media**
 
--All images and videos are taken by me and do not have any copyright attached to them.
-- This excludes [This landscape image](/assets/media/landscape roof.jpg) which was taken from [this website](https://www.pexels.com/photo/brown-concrete-roofs-925684/).
+- All images and videos are taken by me and do not have any copyright attached to them.
+-  This excludes [This landscape image](/assets/media/landscape roof.jpg) which was taken from [this website](https://www.pexels.com/photo/brown-concrete-roofs-925684/).

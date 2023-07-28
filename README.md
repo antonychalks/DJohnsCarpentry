@@ -6,6 +6,12 @@ Welcome,
 This website is the official website for SNA Bespoke Carpentry who are a contruction company in west london. I am a founder of this company along with a friend of mine. The aim of this website is to show potential customers who SNA Carpentry are, what they can do, and to advertise the company as the builders the customer should chose for their next project. This has been done by including images on every page that shows different stages of different jobs that have been completed by workers of SNA Bespoke Carpentry. The target audience is homeowners, whatever the age or gender.
 
 ##
+Template
+
+To view the wireframes template, please go to [SNA Carpentry](snacarpentry.bmpr).
+The finished design changed as I created the website, but the initial structure was followed from the wireframe.
+
+##
 Features
 
 ###

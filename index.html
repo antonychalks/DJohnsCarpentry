@@ -6,90 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="SNA Bespoke Carpentry's website. A small Carpentry buisness based in West/Southwest London, UK">
+        content="">
     <meta name="keywords"
-        content="Carpentry, building, builders, london, west london, Southwest london, shepperton, staines, feltham, hownslow, sunbury, walton, kingston, richmond, ham, teddington">
+        content="Carpentry, building, builders, london, west london, Southwest london, Shepperton, Staines, Feltham, Hownslow, Sunbury, walton, kingston, richmond, ham, teddington">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>SNA Bespoke Carpentry || Home</title>
+
+    <title>Company name || Home</title>
 </head>
 
 <body>
 
     <!-- The header -->
-    <header class="header">
+    <header class="header container">
+        <div class="row d-flex justify-content-evenly">
+            <!--The logo on the top left. -->
+            <div class="col">
+                <a href="index.html" id="logo">
+                    <h1>Company Title</h1>
+                </a>
+            </div>
 
-        <!--The logo on the top right. -->
-        <a href="index.html" id="logo">
-            <h1>SNA Bespoke Carpentry</h1>
-        </a>
+            <div class="col">
+                <!-- Page title, only appears on smaller screen sizes in place of the h2 elements of the nav. -->
+                <h2 class="page-title d-block d-md-none">Home</h2>
 
-        <!-- Page title, only appears on smaller screen sizes in place of the h2 elements of the nav. -->
-        <h2 class="page-title">Home</h2>
-
-        <!--Navigation links to get to the rest of the website. -->
-        <nav id="nav">
-
-            <!--The purpose of the table is so the nav element is in two rows. -->
-            <table role=presentation id="navigation">
-                <tr>
-                    <td><a href="index.html">
-                            <h2>Home</h2>
-                        </a></td>
-                    <td><a href="our_services.html">
-                            <h2>Our Services</h2>
-                        </a></td>
-                    <td><a href="gallery.html">
-                            <h2>Gallery</h2>
-                        </a></td>
-                    <td><a href="contact.html">
-                            <h2> Get in touch</h2>
-                        </a></td>
-                </tr>
-                <tr>
-                    <td class="active"><a href="index.html"><i class="fa-solid fa-house"></i></a></td>
-                    <td><a href="our_services.html"><i class="fa-solid fa-hammer"></i></a></td>
-                    <td><a href="gallery.html"><i class="fa-solid fa-image"></i></a></td>
-                    <td><a href="contact.html"><i class="fa-solid fa-phone"></i></a></td>
-                </tr>
-            </table>
-        </nav>
+                <!--Navigation links to get to the rest of the website. -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" aria-disabled="true">Get In Touch</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <!--This is the inital landscape image that runs underneath the header. -->
     <section id="welcome-container">
-        <div id="welcome-img"></div>
-
-        <!-- Two buttons as an overlay for quick links to getting to the contact form, or to look through the pictures. -->
-        
-        <a href="gallery.html"><div class="overlay-buttons" id="overlay-gallery">
-                    <h2>Visit our Gallery</h2>
-            </div></a>
-            <a href="contact.html"><div class="overlay-buttons" id="overlay-quote">
-                    <h2>Get a Quote</h2>
-            </div></a>
-    </section>
-
-    <!--The introduction paragraph to tell the user about the company and what kind of work is undertaken. -->
-    <section id="intro-container">
-        <div id="intro">
-            <h2>Who are we?</h2>
-            <p>Scott and Antony are the lead Carpenters here at SNA Carpentry. After meeting in the military, and doing
-                carpentry in different countries around the world, we decided to use the expertise and problem-solving
-                we learnt to build our own carpentry company, and have since successfully completed multiple jobs
-                to a high standard.</p>
-            <h2>What do we do?</h2>
-            <p>We have a wide range of carpentry skills between us, including kitchen fitting, hanging doors, bespoke
-                media walls and much more. We won't take on any jobs we don't believe we can complete to a high standard
-                so feel free to get in touch and we'll see how we can help.</p>
-            <h2>Why choose us?</h2>
-            <p>Here at SNA Carpentry we don't only have high standards set for ourselves in terms of our work output, we
-                think it's equally as important you ensure the customer has as easy and pleasant of an experience as
-                possible. We will turn up on time, we won't lie to you, and we are highly reliable.</p>
+        <div class="img-container w-100 d-flex justify-content-center">
+            <img class="landscape-img" src="assets/media/NoImageLandscape.png" alt="LandscapeImage">
         </div>
 
-        <!--The image that sits to the right of the introduction. -->
-        <div id="intro-img-container">
-            <img id="intro-img" src="assets/media/en-suite.webp" alt="Image of a well fit bathroom">
+        <!-- Two buttons as an overlay for quick links to getting to the contact form, or to look through the pictures. -->
+        <div class="overlay-buttons d-flex justify-content-between opacity-25">
+            <a href="gallery.html" class="overlay-button btn btn-info opacity-25">
+                <h2>Visit our Gallery</h2>
+            </a>
+            <a href="contact.html" class="overlay-button btn btn-primary opacity-25">
+                <h2>Get in touch</h2>
+            </a>
+        </div>
+    </section>
+
+    <section class="container">
+        <h1>Who are we?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rutrum massa, id consequat mi. Donec non dui consectetur, elementum lacus ac, scelerisque ipsum. Integer venenatis in neque in accumsan. Nam sollicitudin maximus purus, id rhoncus mauris imperdiet in. Cras facilisis accumsan elit ut elementum. Nulla vehicula, ante in sollicitudin sodales, lectus tortor rhoncus est, eget venenatis ligula ex ac lorem. Nulla id tempor lorem, eu tempus sapien. Proin turpis sapien, vehicula sed eleifend vel, ullamcorper quis ipsum. Praesent purus magna, porttitor non dictum non, posuere at mauris. Nunc eget nisl diam. Praesent fringilla magna quis sagittis bibendum. Vivamus fermentum facilisis convallis. Donec vitae sem congue, consectetur tortor at, eleifend massa. Praesent semper at augue sed pellentesque. Vivamus turpis mi, pharetra vitae dapibus nec, pulvinar non velit. Pellentesque non pharetra ante, sed vestibulum magna.</p>
+    </section>
+
+    <section id="intro-container" class="container">
+        <h1>Services</h1>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-4">
+                <div class="service-icon text-center"><i class="fa-solid fa-trowel"></i></div>
+            </div>
+            <div class="col-4">
+                <div class="service-icon text-center"><i class="fa-solid fa-hammer"></i></div>
+            </div>
+            <div class="col-4">
+                <div class="service-icon text-center"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-4 ">
+                <div class="icon text-center"><h2>Service</h2></div>
+            </div>
+            <div class="col-4">
+                <div class="icon text-center"><h2>Service</h2></div>
+            </div>
+            <div class="col-4">
+                <div class="icon text-center"><h2>Service</h2></div>
+            </div>
         </div>
     </section>
 
@@ -99,45 +117,37 @@
     </section>
 
     <!--The beginning of the footer -->
-    <footer id="footer">
+    <footer id="footer" class="container-fluid d-flex justify-content-between mb-5">
 
         <!--This is for the icons and links of the social network pages. -->
-        <div id="left-footer-container">
-            <ul class="socials">
-                <li><a href="https://www.instagram.com/sa_bespoke_carpentry/" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                <li><a href="mailto:snaproducts@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                </li>
-                <!---I found mailto and how to use it on https://www.tutorialspoint.com/html/html_email_links.htm-->
-            </ul>
+        <div class="col-6 d-flex justify-content-evenly">
+            <a href="https://www.instagram.com/sa_bespoke_carpentry/" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/" target="_blank" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="mailto:" target="_blank" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
         </div>
 
         <!--This is to give all the information of where to find the company and their phone number and email. -->
-        <div id="right-footer-container">
-            <div class="contact">
+        <div class="col-6">
+            <div class="contact text-center">
                 <h2>Contact Us</h2>
-                <p>07123456789</p>
-                <p>123 London Road</p>
-                <p>London</p>
-                <p>AA11ABC</p>
-                <p>SNAProducts@hotmail.com</p>
-            </div>
-        </div>
-
-        <!--These are the certifications associated with the company -->
-        <div id="center-footer-container">
-            <div class="certifications">
-                <img src="assets/media/certifications/dbs.jpg" alt="DBS certifiaction logo">
-                <img src="assets/media/certifications/first-aid.jpg" alt="First aid certification logo">
+                <a href="tel:">Phone number</a>
+                <a href="mailto:">Email</a>
             </div>
         </div>
     </footer>
 
     <!--This is the script for the icons -->
     <script src="https://kit.fontawesome.com/af2386e8fe.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <!--Jquery Script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

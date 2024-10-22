@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato&family=Poppins:wght@200&display=swap');
 
+/*---------- Header */
+.header p,
+.header h1,
+.header a{
+    color: #2F4F4F;
+}
+
+.no-link-decoration{
+    text-decoration: unset;
+    width: auto;
+}
+
 /*---------- Home page welcome image */
 .img-container{
     height: 400px;
@@ -22,12 +34,9 @@
 }
 
 /*---------- Home screen services */
-.service-icon i{
-    font-size: 250px;
-}
-
-.social-icon i{
-    font-size: 50px;
+.carousel-inner,
+.carousel-item{
+    height: 600px;
 }
 
 /*For media screens smaller than 1200px (Laptop)*/

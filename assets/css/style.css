@@ -1,12 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato&family=Poppins:wght@200&display=swap');
+/*---------- Base Colouring */
+.outer-theme{
+    background-color: black;
+}
 
-/*---------- Header */
-.header p,
-.header h1,
-.header a{
+.outer-theme p,
+.outer-theme h1,
+.outer-theme h2,
+.outer-theme h3,
+.outer-theme h4,
+.outer-theme h5,
+.outer-theme a {
+    color: white;
+}
+
+.inner-theme{
+    background-color: white;
+}
+
+.inner-theme p,
+.inner-theme h1,
+.inner-theme h2,
+.inner-theme h3,
+.inner-theme h4,
+.inner-theme h5,
+.inner-theme a {
     color: #2F4F4F;
 }
 
+/*---------- Header */
 .no-link-decoration{
     text-decoration: unset;
     width: auto;

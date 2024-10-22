@@ -47,14 +47,29 @@
 }
 
 /*---------- Overlay buttons */
-.overlay-buttons{
-    width: 40%;
-    z-index: 10;
+.overlay-buttons-container{
     position: absolute;
-    left: 30%;
-    top: 200px;
+    left: calc(50% - 145px);
+    top: 350px;
+    width: 290px;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgb(211,211,211, 0.5);
+    border-radius: 5px;
 }
 
+.overlay-buttons{
+    margin: 0 auto;
+}
+
+.overlay-button{
+    margin: 5px;
+}
+
+.overlay-button > h2{
+    font-size: small;
+    color: white;
+}
 /*---------- Home screen services */
 .carousel-inner,
 .carousel-item{

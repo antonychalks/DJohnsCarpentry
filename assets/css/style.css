@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato&family=Poppins:wght@200&display=swap');
 /*---------- Base Colouring */
 .outer-theme{
-    background-color: black;
+    background-color: white;
 }
 
 .outer-theme p,
@@ -11,25 +11,14 @@
 .outer-theme h4,
 .outer-theme h5,
 .outer-theme a {
-    color: white;
+    color: #2F4F4F
+
 }
 
-.inner-theme{
-    background-color: white;
-}
 
-.inner-theme p,
-.inner-theme h1,
-.inner-theme h2,
-.inner-theme h3,
-.inner-theme h4,
-.inner-theme h5,
-.inner-theme a {
-    color: #2F4F4F;
-}
 
 .bg-1{
-    background-color: white;
+    background-color: rgb(173, 173, 173);
 }
 
 .bg-2{
@@ -38,6 +27,15 @@
 
 ul{
     list-style-type: none;
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.logo img{
+    max-height: 75px;
+    margin: 0 auto;
 }
 
 

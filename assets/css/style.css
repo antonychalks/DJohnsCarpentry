@@ -28,6 +28,14 @@
     color: #2F4F4F;
 }
 
+.bg-1{
+    background-color: white;
+}
+
+.bg-2{
+    background-color: lightgray;
+}
+
 /*---------- Header */
 .no-link-decoration{
     text-decoration: unset;
@@ -54,7 +62,7 @@
     width: 290px;
     z-index: 10;
     padding: 20px;
-    background-color: rgb(211,211,211, 0.5);
+    background-color: rgba(211,211,211, 0.5);
     border-radius: 5px;
 }
 
@@ -74,6 +82,49 @@
 .carousel-inner,
 .carousel-item{
     height: 600px;
+}
+
+/*---------- Home screen Portfolio */
+.portfolio-container{
+    height: 500px;
+}
+
+.portfolio-img{
+    height: 100%;
+}
+
+.card-background{
+    padding: 5px;
+    background: rgba(105,105,105, 0.8);
+    z-index: 100;
+    min-height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*---------- Portfolio images */
+#card-1{
+    background: url("/assets/media/plastering.jpg");
+}
+
+#card-2{
+    background: url("/assets/media/plastering.jpg");
+}
+
+#card-3{
+    background: url("/assets/media/plastering.jpg");
+}
+
+#card-4{
+    background: url("/assets/media/plastering.jpg");
+}
+
+#card-5{
+    background: url("/assets/media/plastering.jpg");
+}
+
+#card-6{
+    background: url("/assets/media/plastering.jpg");
 }
 
 /*For media screens smaller than 1200px (Laptop)*/

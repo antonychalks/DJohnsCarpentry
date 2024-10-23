@@ -36,11 +36,19 @@
     background-color: lightgray;
 }
 
+ul{
+    list-style-type: none;
+}
+
+
+
 /*---------- Header */
 .no-link-decoration{
     text-decoration: unset;
     width: auto;
 }
+
+
 
 /*---------- Home page welcome image */
 .img-container{
@@ -53,6 +61,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+
 
 /*---------- Overlay buttons */
 .overlay-buttons-container{
@@ -78,11 +88,16 @@
     font-size: small;
     color: white;
 }
+
+
+
 /*---------- Home screen services */
 .carousel-inner,
 .carousel-item{
     height: 600px;
 }
+
+
 
 /*---------- Home screen Portfolio */
 .portfolio-container{
@@ -101,6 +116,8 @@
     text-align: center;
     cursor: pointer;
 }
+
+
 
 /*---------- Portfolio images */
 #card-1{
@@ -125,6 +142,35 @@
 
 #card-6{
     background: url("/assets/media/plastering.jpg");
+}
+
+
+
+/*---------- Home screen Contact */
+.address-container {
+    display: inline-block;
+}
+
+.address-container i {
+    vertical-align: top;
+    margin-right: 4px; /* Adjust as needed */
+}
+
+.address-container .address-list {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+.contact-container{
+    margin: auto;
+}
+
+.contact-container a,
+.contact-container i{
+    font-size: x-large;
 }
 
 /*For media screens smaller than 1200px (Laptop)*/

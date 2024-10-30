@@ -171,6 +171,15 @@ ul{
     font-size: x-large;
 }
 
+/*---------- Gallery Contact */
+.gallery-container{
+    height:300px;
+}
+
+.gallery-img{
+    height: 250px;
+}
+
 /*For media screens smaller than 1200px (Laptop)*/
 @media screen and (max-width: 1200px) {
 

@@ -90,8 +90,8 @@ ul{
 
 
 /*---------- Home screen services */
-.carousel-inner,
-.carousel-item{
+.services-container .carousel-inner,
+.services-container .carousel-item{
     height: 600px;
 }
 
@@ -171,13 +171,29 @@ ul{
     font-size: x-large;
 }
 
-/*---------- Gallery Contact */
+/*---------- Gallery */
 .gallery-container{
     height:300px;
 }
 
 .gallery-img{
     height: 250px;
+}
+
+/*--------- Services */
+.carousel-services{
+    height: 400px;
+}
+
+.carousel-services-img {
+    margin: 0 auto;
+}
+
+.carousel-caption{
+    background: rgba(105,105,105, 0.8);
+    margin: 0 auto;
+    padding: 5px;
+    width: fit-content;
 }
 
 /*For media screens smaller than 1200px (Laptop)*/
@@ -219,7 +235,7 @@ ul{
         margin-top: 15px;
     }
 
-    /*our_services.html*/
+    /*services.html*/
     .serv-img-container {
         width: 70%;
     }
@@ -260,7 +276,7 @@ ul{
         display: none;
     }
 
-    /*our_services.html*/
+    /*services.html*/
     .serv-text {
         font-size: smaller;
     }
@@ -434,7 +450,7 @@ ul{
         left: 5%;
     }
 
-    /*our_services.html*/
+    /*services.html*/
 
     .services {
         padding: 5px;

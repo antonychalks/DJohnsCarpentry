@@ -196,6 +196,9 @@ ul{
     width: fit-content;
 }
 
+/*--------- Contact */
+
+
 /*For media screens smaller than 1200px (Laptop)*/
 @media screen and (max-width: 1200px) {
 

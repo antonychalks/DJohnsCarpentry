@@ -38,6 +38,21 @@ ul{
     margin: 0 auto;
 }
 
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12{
+    height: inherit;
+}
+
 
 
 /*---------- Header */
@@ -176,24 +191,47 @@ ul{
     height:300px;
 }
 
+.gallery-img,
+.gallery-img img{
+    height: inherit;
+}
+
 .gallery-img{
-    height: 250px;
-}
-
-/*--------- Services */
-.carousel-services{
-    height: 400px;
-}
-
-.carousel-services-img {
+    position: relative;
+    width: 100%;
+    height: inherit;
     margin: 0 auto;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: unset;
+    white-space: nowrap;
+    display: inline-block;
+
 }
 
-.carousel-caption{
-    background: rgba(105,105,105, 0.8);
+.gallery-img img{
+    height: inherit;
+    padding: unset;
+    margin: unset;
+    display: inline-block;
+}
+
+.arrow-buttons{
+    position: absolute;
     margin: 0 auto;
-    padding: 5px;
-    width: fit-content;
+    bottom: 50px;
+    width: 100%;
+    z-index: 10;
+}
+
+.arrow{
+    margin: 0 40px;
+    background: #d3d3d390;
+}
+
+.arrow i{
+    font-size: 500%;
+    color: white;
 }
 
 /*--------- Contact */

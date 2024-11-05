@@ -234,7 +234,10 @@ ul{
     color: white;
 }
 
-/*--------- Contact */
+/*--------- Services */
+.carousel-services-img{
+    margin: 0 auto;
+}
 
 
 /*For media screens smaller than 1200px (Laptop)*/

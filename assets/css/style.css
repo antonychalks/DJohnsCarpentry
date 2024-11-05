@@ -205,7 +205,7 @@ ul{
     overflow-x: hidden;
     overflow-y: unset;
     white-space: nowrap;
-    display: inline-block;
+    display: flex;
 
 }
 
@@ -219,14 +219,14 @@ ul{
 .arrow-buttons{
     position: absolute;
     margin: 0 auto;
-    bottom: 50px;
+    bottom: 80px;
     width: 100%;
     z-index: 10;
 }
 
 .arrow{
     margin: 0 40px;
-    background: #d3d3d390;
+    background: #d3d3d3;
 }
 
 .arrow i{

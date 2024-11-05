@@ -76,13 +76,13 @@
             </div>
             <div class="col-9">
                 <div class="gallery-img" id="service1-gallery">
-                    <img src="assets/media/gallery/door.jpg">
-                    <img src="assets/media/gallery/roofing.jpg" class="opacity-50">
-                    <img src="assets/media/gallery/shelves.jpg" class="opacity-25">
-                    <img src="assets/media/gallery/skirting.jpg" class="opacity-0">
+                    <img src="assets/media/gallery/door.jpg" style="order:1;opacity:1;">
+                    <img src="assets/media/gallery/roofing.jpg" style="order:2;opacity:0.5;">
+                    <img src="assets/media/gallery/shelves.jpg" style="order:3;opacity:0.25;">
+                    <img src="assets/media/gallery/skirting.jpg" style="order:4;opacity:0.05;">
                     <div class="arrow-buttons" id="service1-buttons">
-                        <button class="left-button arrow btn"><i class="fa-solid fa-arrow-left"></i></button>
-                        <button class="right-button arrow btn"><i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="left-button arrow btn" onclick="arrowLeft(event)"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="right-button arrow btn" onclick="arrowRight(event)"><i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -90,52 +90,121 @@
 
         <!--Doors images-->
         <div class="gallery-container row bg-2" tabindex=0>
-            <h2>Service 2</h2>
-            <section class="gallery">
-                <img src="assets/media/door_hanging.jpg" class="gallery-img" alt="Door being fitted.">
-            </section>
+            <div class="col-3">
+                <h2>Service 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-9">
+                <div class="gallery-img" id="service2-gallery">
+                    <img src="assets/media/gallery/door.jpg" style="order:1;opacity:1;">
+                    <img src="assets/media/gallery/roofing.jpg" style="order:2;opacity:0.5;">
+                    <img src="assets/media/gallery/shelves.jpg" style="order:3;opacity:0.25;">
+                    <img src="assets/media/gallery/skirting.jpg" style="order:4;opacity:0.05;">
+                    <div class="arrow-buttons" id="service2-buttons">
+                        <button class="left-button arrow btn" onclick="arrowLeft(event)"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="right-button arrow btn" onclick="arrowRight(event)"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--Gates and Fences images-->
         <div class="gallery-container row bg-1" tabindex=0>
-            <h2>Service 3</h2>
-            <section class="gallery">
-                <img src="assets/media/door_hanging.jpg" class="gallery-img" alt="Door being fitted.">
-            </section>
+            <div class="col-3">
+                <h2>Service 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-9">
+                <div class="gallery-img" id="service3-gallery">
+                    <img src="assets/media/gallery/door.jpg" style="order:1;opacity:1;">
+                    <img src="assets/media/gallery/roofing.jpg" style="order:2;opacity:0.5;">
+                    <img src="assets/media/gallery/shelves.jpg" style="order:3;opacity:0.25;">
+                    <img src="assets/media/gallery/skirting.jpg" style="order:4;opacity:0.05;">
+                    <div class="arrow-buttons" id="service3-buttons">
+                        <button class="left-button arrow btn" onclick="arrowLeft(event)"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="right-button arrow btn" onclick="arrowRight(event)"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--Roofing images-->
         <div class="gallery-container row bg-2" tabindex=0>
-            <h2>Service 4</h2>
-            <section class="gallery">
-                <img src="assets/media/door_hanging.jpg" class="gallery-img" alt="Door being fitted.">
-            </section>
+            <div class="col-3">
+                <h2>Service 4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-9">
+                <div class="gallery-img" id="service4-gallery">
+                    <img src="assets/media/gallery/door.jpg" style="order:1;opacity:1;">
+                    <img src="assets/media/gallery/roofing.jpg" style="order:2;opacity:0.5;">
+                    <img src="assets/media/gallery/shelves.jpg" style="order:3;opacity:0.25;">
+                    <img src="assets/media/gallery/skirting.jpg" style="order:4;opacity:0.05;">
+                    <div class="arrow-buttons" id="service4-buttons">
+                        <button class="left-button arrow btn" onclick="arrowLeft(event)"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="right-button arrow btn" onclick="arrowRight(event)"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--Shelves, Cupboards and Furniture images-->
         <div class="gallery-container row bg-1" tabindex=0>
-            <h2>Service 5</h2>
-            <section class="gallery">
-                <img src="assets/media/door_hanging.jpg" class="gallery-img" alt="Door being fitted.">
-            </section>
+            <div class="col-3">
+                <h2>Service 5</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-9">
+                <div class="gallery-img" id="service5-gallery">
+                    <img src="assets/media/gallery/door.jpg" style="order:1;opacity:1;">
+                    <img src="assets/media/gallery/roofing.jpg" style="order:2;opacity:0.5;">
+                    <img src="assets/media/gallery/shelves.jpg" style="order:3;opacity:0.25;">
+                    <img src="assets/media/gallery/skirting.jpg" style="order:4;opacity:0.05;">
+                    <div class="arrow-buttons" id="service5-buttons">
+                        <button class="left-button arrow btn" onclick="arrowLeft(event)"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="right-button arrow btn" onclick="arrowRight(event)"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!--Skirting images-->
         <div class="gallery-container row bg-2" tabindex=0>
-            <h2>Service 6</h2>
-            <section class="gallery">
-                <img src="assets/media/door_hanging.jpg" class="gallery-img" alt="Door being fitted.">
-            </section>
+            <div class="col-3">
+                <h2>Service 6</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-9">
+                <div class="gallery-img" id="service6-gallery">
+                    <img src="assets/media/gallery/door.jpg" style="order:1;opacity:1;">
+                    <img src="assets/media/gallery/roofing.jpg" style="order:2;opacity:0.5;">
+                    <img src="assets/media/gallery/shelves.jpg" style="order:3;opacity:0.25;">
+                    <img src="assets/media/gallery/skirting.jpg" style="order:4;opacity:0.05;">
+                    <div class="arrow-buttons" id="service6-buttons">
+                        <button class="left-button arrow btn" onclick="arrowLeft(event)"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="right-button arrow btn" onclick="arrowRight(event)"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!--Walls and Cladding images-->
 
         <div class="gallery-container row bg-1" tabindex=0>
-            <h2>Service 7</h2>
-            <section class="gallery">
-                <img src="assets/media/door_hanging.jpg" class="gallery-img" alt="Door being fitted.">
-            </section>
+            <div class="col-3">
+                <h2>Service 7</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-9">
+                <div class="gallery-img" id="service7-gallery">
+                    <img src="assets/media/gallery/door.jpg" style="order:1;opacity:1;">
+                    <img src="assets/media/gallery/roofing.jpg" style="order:2;opacity:0.5;">
+                    <img src="assets/media/gallery/shelves.jpg" style="order:3;opacity:0.25;">
+                    <img src="assets/media/gallery/skirting.jpg" style="order:4;opacity:0.05;">
+                    <div class="arrow-buttons" id="service7-buttons">
+                        <button class="left-button arrow btn" onclick="arrowLeft(event)"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="right-button arrow btn" onclick="arrowRight(event)"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
     <!--The beginning of the footer -->
     <footer id="footer" class="container my-5 outer-theme">

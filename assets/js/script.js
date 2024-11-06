@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", function() {
 function cardMouseOver(e) {
     let cardInfo = e.currentTarget.querySelector(".card-info");
     if (cardInfo) {
-        cardInfo.classList.remove("d-none");
+        cardInfo.classList.remove("d-md-none");
     }
 }
 
 function cardMouseOut(e) {
     let cardInfo = e.currentTarget.querySelector(".card-info");
     if (cardInfo) {
-        cardInfo.classList.add("d-none");
+        cardInfo.classList.add("d-md-none");
     }
 }
 

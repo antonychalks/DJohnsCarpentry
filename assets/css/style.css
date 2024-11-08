@@ -296,4 +296,31 @@ ul{
     .list-group button{
         font-size: small;
     }
+
+    .gallery-header{
+        height: fit-content;
+    }
+
+    .gallery-img{
+        height: 200px;
+        width: auto;
+    }
+
+    .gallery-img img{
+        height: 100%;
+        width: auto;
+    }
+
+    .arrow{
+        margin: 5px;
+    }
+
+    .arrow i{
+        font-size: unset;
+    }
+
+    .arrow-buttons{
+        display: flex;
+        justify-content: end;
+    }
 }

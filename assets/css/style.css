@@ -287,4 +287,13 @@ ul{
     p{
         font-size: small;
     }
+
+    .carousel-item img{
+        width: 100%;
+        height: auto;
+    }
+
+    .list-group button{
+        font-size: small;
+    }
 }

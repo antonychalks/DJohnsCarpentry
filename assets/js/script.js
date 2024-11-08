@@ -44,6 +44,10 @@ function buttonMouseOver(e){
         let descriptionNum = descriptions[i].dataset.description_number;
         if (descriptionNum === buttonNum){
             descriptions[i].classList.remove("d-none");
+        } else if(descriptionNum != buttonNum){
+            if(!descriptions[i].classList.contains("d-none")){
+                descriptions[i].classList.add("d-none");
+            }
         }
     }
 }
@@ -51,14 +55,6 @@ function buttonMouseOver(e){
 function buttonMouseOut(e){
     let button = e.currentTarget
     button.classList.remove("active")
-    let buttonNum = e.currentTarget.dataset.button_number;
-    let descriptions = document.getElementsByClassName("service-description")
-    for(let i = 0; i < descriptions.length; i++){
-        let descriptionNum = descriptions[i].dataset.description_number;
-        if (descriptionNum === buttonNum){
-            descriptions[i].classList.add("d-none");
-        }
-    }
 }
 
 function buttonClick(e){

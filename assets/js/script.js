@@ -7,11 +7,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     const serviceButtons =  document.querySelectorAll("[class^=service-buttons]")
-        serviceButtons.forEach(function(button) {
+    serviceButtons.forEach(function(button) {
         button.addEventListener("mouseover", buttonMouseOver);
         button.addEventListener("mouseout", buttonMouseOut);
         // button.addEventListener("click", buttonClick);
     });
+
 });
 
 function cardMouseOver(e) {
@@ -36,9 +37,36 @@ function buttonMouseOver(e){
     let button = e.currentTarget
     button.click();
     button.classList.add("active")
+
+    let buttonNum = e.currentTarget.dataset.button_number;
+    let descriptions = document.getElementsByClassName("service-description")
+    for(let i = 0; i < descriptions.length; i++){
+        let descriptionNum = descriptions[i].dataset.description_number;
+        if (descriptionNum === buttonNum){
+            descriptions[i].classList.remove("d-none");
+        }
+    }
 }
 
 function buttonMouseOut(e){
     let button = e.currentTarget
     button.classList.remove("active")
+    let buttonNum = e.currentTarget.dataset.button_number;
+    let descriptions = document.getElementsByClassName("service-description")
+    for(let i = 0; i < descriptions.length; i++){
+        let descriptionNum = descriptions[i].dataset.description_number;
+        if (descriptionNum === buttonNum){
+            descriptions[i].classList.add("d-none");
+        }
+    }
+}
+
+function buttonClick(e){
+    let descriptions = document.getElementsByClassName("service-description")
+    for(let i = 0; i < descriptions.length; i++){
+        if (!descriptions[i].classList.contains("d-none")){
+            descriptions[i].classList.add("d-none");
+        }
+    }
+    buttonMouseOver(e)
 }

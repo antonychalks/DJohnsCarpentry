@@ -69,7 +69,7 @@
             <input type="hidden" name="access_key" value="23337ff6-37ee-486e-8aea-488025021b86">
             <div class="row d-flex justify-content-evenly bg-2">
                 <!--The section where all the details of the customer are entered with contact information.-->
-                <div class="col-5 d-inline-block p-5">
+                <div class="col-12 col-md-5 d-inline-block px-md-5">
                     <fieldset id="details-container">
                         <legend>Personal Details</legend>
                         <div class="input-group w-100 m-1">
@@ -87,8 +87,8 @@
                                 <option value="lady">Lady</option>
                             </select> <br>
                         <!--A drop down list for different gender selections.-->
-                            <label for="gender" class="input-group-text">Gender*</label>
-                            <select id="gender" class="form-select" name="gender" required>
+                            <label for="gender" class="input-group-text">Gender</label>
+                            <select id="gender" class="form-select" name="gender">
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                                 <option value="other">Other</option>
@@ -96,14 +96,14 @@
                             </select> <br>
                         </div>
                         <div class="input-group w-100 m-1">
-                            <label for="fname" class="input-group-text">First and Last name</label><br>
+                            <label for="fname" class="input-group-text">First and Last name*</label><br>
                             <input class="form-control" type="text" id="fname" name="first_name" required><br>
                             <input class="form-control" type="text" id="lname" name="last_name" required><br>
                         </div>
                         <div class="input-group w-100 m-1">
-                            <label for="email" class="input-group-text">Email</label><br>
+                            <label for="email" class="input-group-text">Email*</label><br>
                             <input class="form-control" type="email" id="email" name="email_address" required><br>
-                            <label for="phone" class="input-group-text">Phone</label><br>
+                            <label for="phone" class="input-group-text">Phone*</label><br>
                             <input class="form-control" type="number" id="phone" name="phone_number">
                         </div>
                     </fieldset>
@@ -137,10 +137,10 @@
                 </div>
 
                 <!--The section for all the details of work required. -->
-                <div class="col-5 d-inline-block p-5">
+                <div class="col-12 col-md-5 d-inline-block px-md-5">
                     <fieldset id="services-container">
                         <legend>Work Required</legend>
-                        <div class="input-group w-100 m-1">
+                        <div class="input-group w-100 m-1 flex-wrap">
                             <label for="type-of-work" class="input-group-text">Type Of Work*</label>
                             <!--A drop down list of different titles -->
                             <select id="type-of-work" class="form-select" name="type-of-work" required>
